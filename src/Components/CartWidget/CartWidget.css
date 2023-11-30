@@ -1,0 +1,15 @@
+.logocarro{
+    padding-top: 22px;
+    padding-right: 10px;
+}
+
+.contadorcarro {
+    color: rgb(246, 172, 23);
+    border-radius: 50%; /* Forma el contador en un círculo */
+    width: 24px; /* Ancho del círculo */
+    height: 24px; /* Alto del círculo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 11, 11); /* Cambia este color al que desees */
+  }

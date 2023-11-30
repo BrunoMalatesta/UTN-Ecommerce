@@ -1,0 +1,8 @@
+.contador{
+    border: solid;
+    border-radius: 5px;
+    border-color:  rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+

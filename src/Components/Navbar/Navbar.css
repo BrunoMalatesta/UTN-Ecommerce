@@ -1,0 +1,54 @@
+/* Estilos para la barra de navegación */
+.headermain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+  }
+  
+  .imagenlogo {
+    max-width: 150px; /* Ajusta el tamaño máximo del logo */
+    height: auto;
+  }
+  
+  .categoriasnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .botoncategoria {
+    margin: 0 10px;
+    font-size: 16px;
+    color: white; /* Texto blanco */
+    text-decoration: none;
+  }
+  
+  /* Estilos para el botón del carrito */
+  .cart-link {
+    margin-right: auto; /* Mueve el botón del carrito hacia la izquierda */
+  }
+  
+  /* Estilos para dispositivos más pequeños */
+  @media screen and (max-width: 768px) {
+    .headermain {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .imagenlogo {
+      max-width: 100px; /* Cambia el tamaño máximo del logo para dispositivos más pequeños */
+    }
+  
+    .categoriasnav {
+      margin-top: 20px;
+    }
+  
+    .botoncategoria {
+      margin: 5px;
+      font-size: 14px;
+    }
+  }
+  
